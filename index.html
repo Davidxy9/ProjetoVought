@@ -4,36 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Seven Apprentices | Vought</title>
+
     <link rel="icon" href="./public/images/6847802_0.svg" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/page-landing.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img
-        src="./public/images/cef21cef3dcc91f2833836f4171b0a97.w601.h600.svg"
-        width="320"
-        height="205"
-        alt="logomarca da Vought"
-      />
-      <div>
-        <!-- meu container qualquer --->
-        <strong>Salvando João Pessoa</strong>
-        <!--deixa o texto em negrito -->
-        <p>e o mundo</p>
+    <div id="page-landing">
+      <div id="container">
+        <header>
+          <img
+            class="animate-up" 
+            id="logo"
+            src="./public/images/cef21cef3dcc91f2833836f4171b0a97.w601.h600.svg"
+            //width="320"
+            //height="205"
+            alt="logomarca da Vought"
+          />
+          <div class="location animate-up">
+            <!-- meu container qualquer --->
+            <strong>Salvando João Pessoa</strong>
+            <!--deixa o texto em negrito -->
+            <p>e o mundo</p>
+          </div>
+        </header>
+
+        <main> 
+          <h1 class="animate-up">O verdadeiro herói é você!</h1>
+
+          <section class="hall">
+            <p class="animate-up" >Mostre seu poder e salve o mundo</p>
+            <a href="#" title="Visitar o hall" class="animate-up">
+              <img
+                src="./public/images/seta2vaiquene.svg"
+                //width="320"
+                //height="205"
+                alt="Ir para hall dos heróis"
+              />
+            </a>
+          </section>
+        </main>
       </div>
-
-      
-    </header>
-
-    <main>
-      <h1> O verdadeiro herói é você!</h1>
-      <section>
-        <p>Mostre seu poder e salve o mundo</p>
-        <a href="#" title="Visitar o hall">
-          <img src="./public/images/seta2vaiquene.svg" width="320"
-          height="205" alt="Ir para hall dos heróis">  
-        </a>
-      </section>
-      
-    </main>
+    </div>
   </body>
 </html>

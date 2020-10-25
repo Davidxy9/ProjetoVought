@@ -1,0 +1,26 @@
+* {
+  margin: 0; /*eu não quero espaçamentos*/
+  padding: 0; /*eu não quero preenchimentos */
+}
+
+body {
+  height: 100vh;
+  color: #1c1c1c;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font-weight: 400; /*ltera o peso da fonte */
+  font-size: 1.8rem; /* altera o tamanho da fonte*/
+  line-height: 1; /* altera a altura entre as linhas de forma vertical */
+  font-family: "Nunito", sans-serif;
+
+  /* Ou podemos agrupar tudo assim:
+  font: 400 18px/1 "Nunito", sans-serif; */
+}

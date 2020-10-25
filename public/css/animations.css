@@ -1,0 +1,19 @@
+/*animations */
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(
+      16px
+    ); /*de cima pra baixo, se fosse de baixo pra cima seria 0 pra 16 */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-up {
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards; /*assim que ele fizer a animação ele ficará parado em translate 0 */
+}

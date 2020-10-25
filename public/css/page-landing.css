@@ -1,0 +1,79 @@
+#page-landing {
+  background: linear-gradient(329.54deg, #a9a9a9 0%, #c0c0c0 100%) no-repeat;
+
+  text-align: center;
+  min-height: 100vh; /*quero no minimo essa altura */
+
+  /*alinhar os textos */
+  display: flex;
+}
+/*alinhar os textos (continuação)*/
+#container {
+  margin: auto;
+  width: 90%; /*limitar o container para ajudar na responsividade */
+}
+/* separar os textos */
+.location,
+h1,
+.hall p {
+  height: 16vh; /* separe 16 da altura entre cada textos */
+}
+
+/* imagem vought*/
+#logo {
+  max-width: 200px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+/*botão */
+.hall img {
+  max-width: 100px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+}
+/* borda do botão */
+.hall a {
+  width: 8rem;
+  height: 8rem;
+  background: #808080; /*gray */
+
+  border: none;
+  border-radius: 3rem; /* arredondar a borda */
+
+  display: flex;
+  align-items: center; /*alinha em relação ao eixo X */
+  justify-content: center; /*alinha em relação ao eixo y */
+
+  margin: auto;
+
+  transition: background 300ms;
+}
+
+/*procurar a botão quando ele estiver no modo "hover" ou seja o mouse em cima*/
+.hall a:hover {
+  background: #dcdcdc;
+}
+/*tempo de aparição das animations do page-landing */
+
+#logo {
+  animation-delay: 50ms;
+}
+
+.location {
+  animation-delay: 100ms;
+}
+
+main h1 {
+  animation-delay: 150ms;
+}
+
+.hall p {
+  animation-delay: 200ms;
+}
+
+.hall a {
+  animation-delay: 250ms;
+}
